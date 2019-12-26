@@ -20,7 +20,7 @@ namespace KID
         {
             Turn();
         }
-
+        
         private void FixedUpdate()
         {
             Move();

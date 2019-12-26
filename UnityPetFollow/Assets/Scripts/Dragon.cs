@@ -10,7 +10,14 @@ public class Dragon : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (Vector3.Distance(transform.position,Player.position)<4)
+        {
+            return;
+        }
+
         Track();
+
+
     }
 
     public void Track() {
